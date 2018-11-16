@@ -18,7 +18,7 @@ export default {
         id: u._id.toString(),
         email: u.email,
         password: u.password,
-        menu: u.menu
+        other: u.other
       }));
     }
   },
@@ -27,10 +27,10 @@ export default {
       const res = await new User({ email, password }).save();
       return Object.assign({}, res, { id: res._id.toString() });
     },
-    setUserMenu: async (root, { id, menu }) => {
+    setUserOther: async (root, { id, other }) => {
       return await User.findOneAndUpdate(
         { _id: ObjectID(id) },
-        { $set: { menu } }
+        { $set: { other } }
       ).exec();
     }
   }

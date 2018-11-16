@@ -3,7 +3,7 @@ export default `
       id: String
       email: String!
       password: String!,
-      menu: String
+      other: String
     }
 
   type Query {
@@ -14,6 +14,6 @@ export default `
 
   type Mutation {
     addUser(email: String!, password: String!): User
-    setUserMenu(id: String, menu: String!): User
+    setUserOther(id: String, other: String!): User
   }
   `;

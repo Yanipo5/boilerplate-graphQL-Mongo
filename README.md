@@ -12,16 +12,9 @@ Run just the server on https://localhost:4000/graphql:
 
 ```sh
 $ npm install
-$ npm run server
-```
-
-Run the client on https://localhost:3000/ and Server on https://localhost:4000/graphql:
-
-```sh
-$ npm install
-$ npm run dev
+$ npm start
 ```
 
 ### License
 
-MIT (c) Leonardo Maldonado ([@leonardomso](https://twitter.com/leonardomso))
+MIT (c) Yaniv Peretz ([Yaniv](yip528@gmail.com))

@@ -6,9 +6,10 @@
 ### Getting Started
 
 Set .env file with your mongoURI (use .env.example for... example :) ),
-setting this up, and your ready to go.
 
-Run just the server on https://localhost:4000/graphql:
+and... your good to go!.
+
+#### Run the server https://localhost:4000/graphql: ####
 
 ```sh
 $ npm install

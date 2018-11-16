@@ -33,12 +33,5 @@ export default {
         { $set: { menu } }
       ).exec();
     }
-    // deleteUser: (root, args) => {
-    //   return new Promise((resolve, reject) => {
-    //     User.findOneAndRemove(args).exec((err, res) => {
-    //       err ? reject(err) : resolve(res);
-    //     });
-    //   });
-    // }
   }
 };
